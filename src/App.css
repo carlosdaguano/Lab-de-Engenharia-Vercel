@@ -1,4 +1,8 @@
 .App {
+  height: 90vh;
+}
+/*
+.App {
   text-align: center;
 }
 
@@ -36,3 +40,4 @@
     transform: rotate(360deg);
   }
 }
+*/

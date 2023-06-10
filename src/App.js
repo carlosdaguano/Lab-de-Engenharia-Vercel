@@ -1,11 +1,13 @@
-import Relogio from "./Components/Relogio";
-import Letreiro from "./Components/Letreiro";
+import './App.css';
+import { Outlet } from 'react-router-dom';
+import Navegation from './layout/Navegation';
 
 function App() {
   return (
-    <div>
-        <Relogio />
-        <Letreiro />
+    <div className="App">
+      <Navegation />
+      <Outlet />
+      <p>Footer</p>
     </div>
   );
 }

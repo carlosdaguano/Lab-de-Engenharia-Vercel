@@ -1,0 +1,51 @@
+.navegation {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+    background-color: cornflowerblue;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo-text{
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.items-menu {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.items-menu:hover {
+    background-color: darkslateblue;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
