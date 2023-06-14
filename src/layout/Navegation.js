@@ -13,7 +13,6 @@ const Navegation = () => {
                 <Link to="/atividade3" className="items-menu">Atividade 3</Link>
                 <Link to="/atividade4" className="items-menu">Atividade 4</Link>
                 <Link to="/atividade5" className="items-menu">Atividade 5</Link>
-                <Link to="/atividade6" className="items-menu">Atividade 6</Link>
             </div>
             <div className="contact">
                 <a href="https://github.com/carlosdaguano/Lab-de-Engenharia-Vercel">GitHub</a>
